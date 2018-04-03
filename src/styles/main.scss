@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "./variables.scss";
+
+@tailwind preflight;
+
+// your custom components goes here.
+
+@tailwind utilities;
+
+// your custom utilities goes here.
+
+
+body {
+  background: $background;
+  overflow: hidden;
+}

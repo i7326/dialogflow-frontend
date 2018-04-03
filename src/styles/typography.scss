@@ -1,0 +1,44 @@
+// Import fonts
+
+@font-face {
+  font-family: 'DIN';
+  src: url('/assets/fonts/din.eot');
+  src: url('/assets/fonts/din.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/din.woff2') format('woff2'),
+       url('/assets/fonts/din.woff') format('woff'),
+       url('/assets/fonts/din.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'DIN';
+  src: url('/assets/fonts/dinbold.eot');
+  src: url('/assets/fonts/dinbold.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/dinbold.woff2') format('woff2'),
+       url('/assets/fonts/dinbold.woff') format('woff'),
+       url('/assets/fonts/dinbold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+    font-family: 'SimploW00-Black';
+    src: url('/assets/fonts/SimploW00-Black.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/SimploW00-Black.woff') format('woff'),
+         url('/assets/fonts/SimploW00-Black.ttf') format('truetype'),
+         url('/assets/fonts/SimploW00-Black.svg#SimploW00Black') format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+/* sass-lint:enable max-line-length no-duplicate-properties indentation */
+
+html {
+  font-size: 0.8em;
+}
+
+body {
+  /* sass-lint:disable-block no-vendor-prefixes */
+
+}
